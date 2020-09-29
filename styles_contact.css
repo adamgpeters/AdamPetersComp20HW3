@@ -10,6 +10,11 @@
     background-color: #45a049;
   }
 
+  input[type=submit] {
+    font-size: 16px;
+  }
+
+
   .rounded {
     width: 40%;
     transform: translateY(-50%) translateX(50%);
@@ -37,6 +42,11 @@
     padding-left: 0;
     margin-left: 0;
   }
+
+  input[type=submit] {
+    font-size: 30px;
+  }
+
 }
 
 .rounded {
@@ -46,7 +56,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #DCDCDC;
-  /* padding: 20px; */
+  padding: 20px;
   height: 70%;
   top: 50%;
   left: 50%;
@@ -79,9 +89,13 @@ body {
   width: 100%;
 }
 
+#info {
+  height: 200%;
+}
+
 input[type=text], select,textarea[type=text] {
-  width: 100%;
-  font-size: 30px;
+  width: 80%;
+  font-size: 16px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -91,20 +105,15 @@ input[type=text], select,textarea[type=text] {
   font-family: Times, Helvetica, sans-serif;
 }
 
-#info {
-  height: 200%;
-}
-
 input[type=submit] {
 
-  width: 100%;
+  width: 80%;
   position: relative;
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin-left: auto;
   border: none;
-  font-size: 30px;
   border-radius: 4px;
   cursor: pointer;
 }
