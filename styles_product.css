@@ -48,15 +48,14 @@
     border-width: 1px;
     border-color: #DCDCDC;
 
-    position: absolute;
-
     padding: 10px;
 
     left: 50%;
     transform: translateX(-50%);
 
+    position: relative;
     top: 0;
-    width: 90%;
+    width: 100%;
     font-size: 50px;
     margin-top: 50;
     text-align: left;
