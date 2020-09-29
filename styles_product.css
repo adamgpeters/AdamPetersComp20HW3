@@ -25,6 +25,12 @@
     margin-top: 50;
     text-align: left;
   }
+
+  .title p:first-child{
+    margin-top: 0;
+    text-align: center;
+    font-size: 35px;
+  }
 }
 
 @media (any-hover: none) {
@@ -50,10 +56,17 @@
     position: relative;
     top: 0;
     width: 100%;
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 50;
     text-align: left;
   }
+
+  .title p:first-child{
+    margin-top: 0;
+    text-align: center;
+    font-size: 60px;
+  }
+
 }
 
 
@@ -64,12 +77,6 @@ body {
   font-family: Times, Helvetica, sans-serif;
 }
 
-
-.title p:first-child{
-  margin-top: 0;
-  text-align: center;
-  font-size: 35px;
-}
 
 .center {
   height: 100%;
