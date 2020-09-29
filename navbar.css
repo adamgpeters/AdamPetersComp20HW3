@@ -8,6 +8,11 @@
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  #navbar li a {
+    display: block;
+    width: 100px;
+  }
 }
 
 @media (any-hover: none) {
@@ -19,6 +24,12 @@
     padding: 14px 50px;
     text-decoration: none;
   }
+
+  #navbar li a {
+    display: block;
+    width: 150px;
+  }
+
 }
 #navbar {
     position: fixed;
@@ -30,14 +41,6 @@
     padding-top: 0;
     z-index: 10;
     background-color: rgba(100,100,100,.5);
-}
-
-
-
-
-#navbar li a {
-  display: block;
-  width: 100px;
 }
 
 #navbar li {
