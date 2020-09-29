@@ -93,7 +93,7 @@ body {
   height: 200%;
 }
 
-input[type=text], select,textarea[type=text] {
+/* input[type=text], select,textarea[type=text] {
   width: 80%;
   font-size: 16px;
   padding: 12px 20px;
@@ -116,4 +116,4 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
