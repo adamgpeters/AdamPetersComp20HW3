@@ -34,6 +34,8 @@
   .rounded {
     width: 90%;
     transform: translateY(-50%);
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -44,7 +46,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #DCDCDC;
-  padding: 20px;
+  /* padding: 20px; */
   height: 70%;
   top: 50%;
   left: 50%;
@@ -79,6 +81,7 @@ body {
 
 input[type=text], select,textarea[type=text] {
   width: 100%;
+  font-size: 30px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -101,6 +104,7 @@ input[type=submit] {
   padding: 14px 20px;
   margin-left: auto;
   border: none;
+  font-size: 30px;
   border-radius: 4px;
   cursor: pointer;
 }
