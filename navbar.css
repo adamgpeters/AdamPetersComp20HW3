@@ -23,7 +23,7 @@
 #navbar {
     position: fixed;
     list-style-type: none;
-    width: 100%;
+    width: 200%;
     overflow: hidden;
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@
 
 #navbar li {
   float: left;
-
+  top: 50%;
 }
 
 
