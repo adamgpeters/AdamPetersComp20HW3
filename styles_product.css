@@ -1,4 +1,61 @@
-@media (hover: hover) {  }
+@media (hover: hover) {
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+  }
+
+  .rounded {
+    border-radius: 25px;
+    background-color: rgba(244,244,244,.4);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DCDCDC;
+
+    padding: 20px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 50;
+    text-align: left;
+  }
+}
+
+@media not (hover: hover) {
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+  }
+
+  .rounded {
+    border-radius: 25px;
+    background-color: rgba(244,244,244,.4);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DCDCDC;
+
+    padding: 20px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    position: relative;
+    top: 0;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 50;
+    text-align: left;
+  }
+}
+
 
 body {
   overflow: hidden;
@@ -7,12 +64,6 @@ body {
   font-family: Times, Helvetica, sans-serif;
 }
 
-.title {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translateX(-50%);
-}
 
 .title p:first-child{
   margin-top: 0;
@@ -23,28 +74,4 @@ body {
 .center {
   height: 100%;
   width: 100%;
-}
-
-.rounded {
-  position: absolute;
-  border-radius: 25px;
-  background-color: rgba(244,244,244,.4);
-  border-style: solid;
-  border-width: 1px;
-  border-color: #DCDCDC;
-  padding: 20px;
-  height: 70%;
-  width: 40%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
-.rounded {
-  position: relative;
-  top: 0;
-  width: 75%;
-  font-size: 18px;
-  margin-top: 50;
-  text-align: left;
 }
