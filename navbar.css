@@ -1,0 +1,36 @@
+
+#navbar {
+  position: fixed;
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding-top: 0;
+  z-index: 10;
+  background-color: rgba(100,100,100,.5);
+}
+
+
+#navbar li a {
+  display: block;
+  width: 100px;
+}
+
+#navbar li {
+  float: left;
+
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  transition: background-color 0.5s ease;
+  background-color: rgba(120,120,120,.9);
+}
