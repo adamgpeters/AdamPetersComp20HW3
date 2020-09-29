@@ -1,4 +1,14 @@
-@media (hover: hover) {  }
+@media (hover: hover) {
+  .scrollable-text {
+    font-size: 50px;
+  }
+}
+
+@media (hover: none) {
+  .scrollable-text {
+    font-size: 100px;
+  }
+}
 
 body {
   /* background-color: #b3ecff;   */
